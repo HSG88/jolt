@@ -42,6 +42,7 @@ members = [
     "examples/multi-function/guest",
     "examples/alloc",
     "examples/alloc/guest",
+    "examples/poseidon",
 ]
 
 [features]

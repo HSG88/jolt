@@ -1,0 +1,13 @@
+[package]
+name = "poseidon"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ff = {package="ff_ce" , version="0.11", features = ["derive"]}
+poseidon-rs = "0.0.10"
+jolt-sdk = { path = "../../jolt-sdk", features = ["std"] }
+guest = { package = "poseidon-guest", path = "./guest" }
+hex = "0.4.3"
